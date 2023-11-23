@@ -7,3 +7,6 @@ Vi har fått tillgång till ZOD (Zenseact open dataset) som är ett dataset med 
 Vi började med att skapa en DataFrame för metadatan till alla bilderna i datasetet och det fanns följande värden i metadatan:
 
 """frame_id,time,country_code,scraped_weather,collection_car,road_type,road_condition,time_of_day,num_lane_instances,num_vehicles,num_vulnerable_vehicles,num_pedestrians,num_traffic_lights,num_traffic_signs,longitude,latitude,solar_angle_elevation"""
+
+
+![Warzawa_density_map](https://github.com/gustavpy/Fleetlearning/assets/147041037/da5313c9-165b-4d66-85cc-00c7dc7de887)
