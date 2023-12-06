@@ -55,6 +55,8 @@ def partition_train_data(
         training_frames_all, int(len(training_frames_all) * percentage_of_data)
     )
 
+# ==================================================RANDOM==================================================
+    
     if strat == PartitionStrategy.RANDOM:
         cid_partitions = {}
         random.shuffle(sampled_training_frames)
@@ -64,8 +66,8 @@ def partition_train_data(
                 i * sublist_size : (i + 1) * sublist_size
             ]
 
-
-
+# ==================================================LOCATION==================================================
+    
     if strat == PartitionStrategy.LOCATION:  #Arvid Location
         import pandas as pd
         import numpy as np
@@ -121,6 +123,7 @@ def partition_train_data(
  
 
 
+# ===================================================SPLIT===================================================
     
     if strat == PartitionStrategy.SPLIT:
         import pandas as pd 
@@ -145,6 +148,7 @@ def partition_train_data(
         cid_partitions = {str(key): [str(x).zfill(6) for x in value] for key, value in cid_partitions.items()}
 
 
+# ==================================================SPECIFIC==================================================
 
     if strat == PartitionStrategy.SPECIFIC:
         import pandas as pd
