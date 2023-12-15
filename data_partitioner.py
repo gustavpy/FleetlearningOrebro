@@ -127,7 +127,7 @@ def partition_train_data(
     
     if strat == PartitionStrategy.SPLIT:
         import pandas as pd 
-        df = pd.read_csv("DFRemainingWOGB.csv")
+        df = pd.read_csv("DFValidWithoutGreatBrittain.csv")
 
         snow_records = df[df["road_condition"] == "snow"]["frame_id"].tolist()
         wet_records = df[df["road_condition"] == "wet"]["frame_id"].tolist()
