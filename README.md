@@ -9,9 +9,9 @@ Another improvement is that the code has the ability to stop when overfitting or
 
 Visualization:
 When we were in the beginning of the project we also wanted to be able to get the actual pictures from the dataset. We were able to do this after some work, but we could not select a specific frame to print out, it was just guesswork if you wanted to get a picture from for example London, so we put this mini-project on halt for the time being. But later when we did the did the visualization of the meta data and in particular the density map, we also added so that you could see a particular frame_id when you hover the mouse over a certain location, this meant that we now could get any picture from anywhere in the dataset, which is cool.
-Strategies
 ![Warzawa_density_map](https://github.com/gustavpy/FleetlearningOrebro/assets/149911607/13a988a9-a53c-48d1-8195-fcb52ec36e95)
 
+Strategies:
 
 Strategy 1:
 When you train the model you divide the data over several clients or “cars”, one of our missions was to find out the best strategy for dividing the data. leading to the best possible model. 
