@@ -39,11 +39,14 @@ Another thing to consider with this strategy is the random test/train. If we wou
 Summary:
 If given additional time, we believe we could have enhanced the visualization by individually visualizing each client. So if we were to use the KNN Strategy, we could see each client's images and where we got the data from. That would further give us hindsight of what data gives a better or worse loss. Due to the lack of computational power it took around a whole working day to test one of the strategies, and sometimes the VPN would disconnect while we were running. If we had more time we could have made further progress looking more into different strategies which would have been interesting. We also had an idea of having a database with parameters from a specific location. So if a car is driving in Finland we add the Finland parameters to the general model. Perhaps this could also work on Countries like the UK where there is a drastic difference from other countries.
 
-When we first heard of this project we were all intrigued, but we also felt a little bit intimidated, working with a project that includes self driving cars with fleet léaring, wow. This 3 month journey has been amazing. It started with creating an overview of what needed to be done and understanding the code. We developed a new, comprehensive main code and brainstormed various strategies where we prioritized looking into these strategies. Random, specific road conditions, geographical locations and splitting the data evenly throughout the clients. We also visualized all the data to get a better understanding of how much of each data there is. Due to obstacles we were not able to further try other interesting strategies, but we are still proud of what we accomplished with the time we had.
+When we first heard of this project we were all intrigued, but we also felt a little bit intimidated, working with a project that includes self driving cars with fleet léaring, wow. This 3 month journey has been amazing. It started with creating an overview of what needed to be done and understanding the code. We developed a new, comprehensive main code and brainstormed various strategies where we prioritized looking into these strategies. Random, specific road conditions, geographical locations and splitting the data evenly throughout the clients. We also visualized all the data to get a better understanding of how much of each data there is. But every jearny has its end and we would have loved to explore further in this project, but we are still proud of what we accomplished with the time we had.
 
 Finally we want to thank everyone at Zenseact and Volvo who made this project possible, and a special thanks to Viktor, Oscar and Jonas for their inputs, suggestions and supervising throughout the project!
 
 
 
+
+Presentation: https://docs.google.com/presentation/d/1N-mDLqxlGARTm_olwDzFgyJQchYA5TYTmFhqhcEtb48/edit#slide=id.g1ed59cd48d4_2_2 
+Script for presentation: https://docs.google.com/document/d/1ZaGm5ibJWOb3UprZuD5LnlCSS8zjZJy_CRzZxDazrT8/edit 
 
 
